@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: #DDE1E2;
+    font-family: 'Poppins', sans-serif;
+}
+.heder_area{
+    width: 100%;
+    height: 1px;
+}
+.heder_area div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.heder_area .logo{
+    margin-left: 200px;
+    padding: 12px;
+}
+.heder_area .menu{
+    margin-top: 25px;
+    right: 0;
+    margin-right: 100px;
+    margin-left: 95px;
+}
+.heder_area .menu ul{
+    list-style: none;
+}
+
+.heder_area .menu ul li{
+    float: left;
+    padding-right: 40px;
+    
+}
+
+.heder_area .menu ul li a{
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.heder_area .login{
+    margin-top: 20px;
+}
+.login button{
+    padding: 8px 20px;
+    background-color: #8193FE;
+    outline: none;
+    color: #f9f9ff;
+    border: 0px solid #8193FE;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.login button:hover{
+    background: #454545;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 0px 50px 0px;
+    transition: all 0.5s ease-in 0.25;
+    outline: none;
+}
+/*---Hero_section start---*/
+.hero_section1{
+    background-color: #DBDFE0;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.half1{
+    width: 60%;
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half2{
+    width: 60%;
+    margin-right: 160px;
+    margin-top: -90px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 60px;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.half1 p{
+    color: #8C96A7;
+    margin-bottom: 40px
+}
+.email input{
+    padding: 23px 136px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    outline: none;
+    color: #8C96A7;
+    border: 1px solid #FFFFFF;
+    font-size: 15px;
+    position: relative;
+}
+.email input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.25;
+    outline: none;
+}
+
+.btn input{
+    padding: 16px 21px;
+    background-color: #8193FE;
+    border-radius: 50px;
+    outline: none;
+    color: #f9f9ff;
+    border: 0px solid #8193FE;
+    font-size: 15px;
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 337px;
+}
+.btn input:hover{
+    background: #454545;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 0px 50px 0px;
+    transition: all 0.5s ease-in 0.25;
+    outline: none;
+}
+/*---Hero_section one end---*/
